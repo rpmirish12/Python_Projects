@@ -1,15 +1,17 @@
 
 
-def get_item():
-    print("Please enter an item: ")
-    return input()
+def get_order():
+    print("[command] [item] (command is a to add, d to delete, q to quit)")
+    line = input()
+    command = line[:1]
+    item = line[2:]
 
 
 def go_shopping():
     cart = []
 
     while True:
-        item = get_item()
+        item = get_order()
         if item == "":
             break
         cart.append(item)
