@@ -1,7 +1,7 @@
 class Classroom:
 
     def __init__(self):
-        """Initialization of self12"""
+        """Test Push"""
         self._people = []
 
     def add_person(self, person):
