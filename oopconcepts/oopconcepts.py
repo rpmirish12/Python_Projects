@@ -1,6 +1,7 @@
 class Classroom:
 
     def __init__(self):
+        """Initialization of self"""
         self._people = []
 
     def add_person(self, person):
