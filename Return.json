@@ -18,3 +18,9 @@
  "origin": "3.34.133.178",
  "url": "http://3.8.86.144/get"
 }
+
+EPI and tenant from akana, could be a policy condition that's blocking it
+
+1 3 legged oauth and user head and then
+
+service to service, create client_ID for app, but can't associate client_ID to group'
